@@ -11,7 +11,7 @@
   - Firebase Hosting
   - Firebase Authentication
   - Cloud Functions
-  - Storage
+  - Firebase Cloud Storage
 - Setup and Installation
 - Demo
 - Best practices and Security
@@ -51,3 +51,6 @@ Firebase Authentication is a powerful backend service offered by Firebase, desig
 
 ### Cloud Functions
 Firebase Cloud Functions which is a key service within Google's Firebase platform. It allows the developers to execute backend code responding to various events, such as Firebase services events or HTTPS calls. This capability enables developers to extend their application's functionality without the need to manage servers, offering a serverless approach to backend development.
+
+### Firebase Cloud Storage
+Firebase Cloud Storage is a robust and cloud-based solution which is customize for storing and serving user-generated content such as photos, videos and other media files. As an integral part of the Firebase platform, it easily integrates with various Firebase and Google Cloud Platform (GCP) services and making it a good choice for developers to build scalable, secure and high-perfomance applications.

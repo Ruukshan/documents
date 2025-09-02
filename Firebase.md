@@ -3,7 +3,7 @@
 ## Table of Content
 - [Introduction]
 - Firebase core Services
-- - Firestore Database
+  - Firestore Database
   - Real time Database
   - Firebase hosting
   - Cloud functions

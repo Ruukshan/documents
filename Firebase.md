@@ -54,3 +54,8 @@ Firebase Cloud Functions which is a key service within Google's Firebase platfor
 
 ### Firebase Cloud Storage
 Firebase Cloud Storage is a robust and cloud-based solution which is customize for storing and serving user-generated content such as photos, videos and other media files. As an integral part of the Firebase platform, it easily integrates with various Firebase and Google Cloud Platform (GCP) services and making it a good choice for developers to build scalable, secure and high-perfomance applications.
+
+# Setup and Installation
+**1. Create a Firebase Account**
+- Visit firebase.google.com and click  "Get Started"
+- Sign in using your Google account or create one if you don't have yet to proceed with the Firebase setup

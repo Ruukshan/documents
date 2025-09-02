@@ -63,7 +63,7 @@ Firebase Cloud Storage is a robust and cloud-based solution which is customize f
 **2. Create a New Project**
 - Click "Add Project", enter your project name, select your region, and proceed.
 
-**3. Add Firebase to Your Web App
+**3. Add Firebase to Your Web App**
 - First install the Firebasse SDK in your project.
-  '''bash
+  ```bash
   npm install firebase

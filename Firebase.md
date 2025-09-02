@@ -59,3 +59,11 @@ Firebase Cloud Storage is a robust and cloud-based solution which is customize f
 **1. Create a Firebase Account**
 - Visit firebase.google.com and click  "Get Started"
 - Sign in using your Google account or create one if you don't have yet to proceed with the Firebase setup
+
+**2. Create a New Project**
+- Click "Add Project", enter your project name, select your region, and proceed.
+
+**3. Add Firebase to Your Web App
+- First install the Firebasse SDK in your project.
+  '''bash
+  npm install firebase

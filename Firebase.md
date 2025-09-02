@@ -13,9 +13,9 @@
   - Cloud Functions
   - Firebase Cloud Storage
 - Setup and Installation
-- Demo
 - Best practices and Security
 - Environment variables
+- Demo
 
 ## Introduction
 Firebase is the Backend-as-a-Service (BaaS) platform which is developed by Google and provides a variety of tools and services for building web and mobile applications. It simplifies the backend development tasks like database management, authentication, file storage, and real-time data syncing. Allows the developers to focus on building high-quality applications. The Firebase integrates well with other Google Cloud products and offers cross-platform support.
@@ -64,6 +64,42 @@ Firebase Cloud Storage is a robust and cloud-based solution which is customize f
 - Click "Add Project", enter your project name, select your region, and proceed.
 
 **3. Add Firebase to Your Web App**
-- First install the Firebasse SDK in your project.
+- In your Firebase project dashboard, click on the web icon
+- Register your app by entering an app nickname
+- Choose whether to set up firebase Hosting
+- Click "Register" then firebase will generate a configuration object that something look like this
+  ```code
+  const firebaseConfig = {
+    apiKey: "your-api-key",
+    authDomain: "your-project.firebaseapp.com",
+    projectId: "your-project-id",
+    storageBucket: "your-project.appspot.com",
+    messagingSenderId: "123456789",
+    appId: "your-app-id"
+  };
+- Install the Firebasse SDK in your project:
   ```bash
   npm install firebase
+- Then, initialize Firebase in your code by creating a file called firebase.js in your project root:
+  ```js
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from 'firebase/app';
+  import { getAnalytics } from 'firebase/analytics';
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "your-api-key",
+    authDomain: "your-project.firebaseapp.com",
+    projectId: "your-project-id",
+    storageBucket: "your-project.appspot.com",
+    messagingSenderId: "123456789",
+    appId: "your-app-id"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+
+  // Initialize Analytics (optional)
+  const analytics = getAnalytics(app);
+
+  export { app, analytics };

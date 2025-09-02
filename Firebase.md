@@ -68,7 +68,7 @@ Firebase Cloud Storage is a robust and cloud-based solution which is customize f
 - Register your app by entering an app nickname
 - Choose whether to set up firebase Hosting
 - Click "Register" then firebase will generate a configuration object that something look like this
-  ```code
+  ```js
   const firebaseConfig = {
     apiKey: "your-api-key",
     authDomain: "your-project.firebaseapp.com",

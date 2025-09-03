@@ -147,4 +147,7 @@ Using Environment Variables for production apps is one of the security best prac
   export { app };
 
 ## References
-1. Geek For Geeks Website [What is Firebase](https://www.geeksforgeeks.org/firebase/what-is-firebase/)
+1.Firebase Website [Learn about products to help you BUILD your app](https://firebase.google.com/docs/build)
+2. Geek For Geeks Website [What is Firebase](https://www.geeksforgeeks.org/firebase/what-is-firebase/)
+3. dev.to [Firebase Project Setup: Your Complete Getting Started Guide](https://dev.to/this-is-learning/firebase-project-setup-your-complete-getting-started-guide-3k23)
+4. Moldstud website [What are some best practices for securing Firebase apps?](https://moldstud.com/articles/p-what-are-some-best-practices-for-securing-firebase-apps)

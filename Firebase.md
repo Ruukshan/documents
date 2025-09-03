@@ -15,6 +15,7 @@
 - Setup and Installation
 - Best practices and Security
 - Environment variables
+- References
 - Demo
 
 ## Introduction

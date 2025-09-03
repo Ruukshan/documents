@@ -103,18 +103,18 @@ Firebase Cloud Storage is a robust and cloud-based solution which is customize f
   const analytics = getAnalytics(app);
 
   export { app, analytics };
-# Best Practices and Security
-##1. Authenticate Users
+## Best Practices and Security
+### 1. Authenticate Users
 One of the first steps in securing a Firebase app is to authenticate users. By requiring users to sign in with valid credential, developers can ensure that only authorized users have access to the app's resources. Firebase Authentication provides various authentication methods, such as email/password, phone authentication, and third-party providers like Google and Facebook.
 
-##2. Restrict Access with Security Rules
+### 2. Restrict Access with Security Rules
 Developers should define strict security rules that restrict access to Firebase resources based on user roles and permissions. By setting up rules for read, write and create operations, developers can prevent unauthorized access to sensitive data and ensure data integrity.
 
-##3. Use Firebase Realtime Database Rules
+### 3. Use Firebase Realtime Database Rules
 For applications that use Firebase Realtime Database, developers shoult utilize Firebase Realtime Database Rules to control access to data and enforce validation conditions. These rules can help developers define who can read or write data, what data can be stored, and what actions are allowed on specific data nodes.
 
-##4. Secure Firebase Storage with Security Rules
+### 4. Secure Firebase Storage with Security Rules
 When using Firebase Storage to store files and media, developers should set up security rules to control access to files and prevent unauthorized downloads. By defining rules for bucket-level and object-level access, developers can ensure that only authorized users can upload, download, or delete files.
 
-##5. Regularly Audit and Update Security Rules
+### 5. Regularly Audit and Update Security Rules
 It is essential for developers to regularly audit and update security rules to adapt to changing security requirements and address potential vulnerabilities. By reviewing and optimizing security rules periodically, developers can enhance the security of their Firebase apps and protect against evolving security threats.

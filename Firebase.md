@@ -145,3 +145,6 @@ Using Environment Variables for production apps is one of the security best prac
 
   const app = initializeApp(firebaseConfig);
   export { app };
+
+## References
+1. Geek For Geeks Website [What is Firebase](https://www.geeksforgeeks.org/firebase/what-is-firebase/)

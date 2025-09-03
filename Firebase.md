@@ -15,8 +15,8 @@
 - Setup and Installation
 - Best practices and Security
 - Environment variables
+- Demo Vue.js with Firebase
 - References
-- Demo
 
 ## Introduction
 Firebase is the Backend-as-a-Service (BaaS) platform which is developed by Google and provides a variety of tools and services for building web and mobile applications. It simplifies the backend development tasks like database management, authentication, file storage, and real-time data syncing. Allows the developers to focus on building high-quality applications. The Firebase integrates well with other Google Cloud products and offers cross-platform support.
@@ -145,6 +145,9 @@ Using Environment Variables for production apps is one of the security best prac
 
   const app = initializeApp(firebaseConfig);
   export { app };
+
+## Demo (Vue.js with Firebase)
+Github : [vue-todo](https://github.com/Ruukshan/vue-todo)
 
 ## References
 1.Firebase Website [Learn about products to help you BUILD your app](https://firebase.google.com/docs/build)
